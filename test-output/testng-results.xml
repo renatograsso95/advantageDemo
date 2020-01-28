@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-28T15:11:39 BRT" name="Default suite" finished-at="2020-01-28T15:12:07 BRT" duration-ms="28009">
+    <groups>
+    </groups>
+    <test started-at="2020-01-28T15:11:39 BRT" name="Default test" finished-at="2020-01-28T15:12:07 BRT" duration-ms="28009">
+      <class name="br.com.rsinet.hub_tdd.test.testConsulta">
+        <test-method is-config="true" signature="consulta()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:39 BRT" name="consulta" finished-at="2020-01-28T15:11:50 BRT" duration-ms="10770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consulta -->
+        <test-method signature="Teste_Busca()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:50 BRT" name="Teste_Busca" finished-at="2020-01-28T15:11:52 BRT" duration-ms="2774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teste_Busca -->
+        <test-method is-config="true" signature="finalizaTeste(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:52 BRT" name="finalizaTeste" finished-at="2020-01-28T15:11:54 BRT" duration-ms="1242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Teste_Busca status=SUCCESS method=testConsulta.Teste_Busca()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizaTeste -->
+        <test-method is-config="true" signature="consulta()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:54 BRT" name="consulta" finished-at="2020-01-28T15:12:04 BRT" duration-ms="10066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consulta -->
+        <test-method signature="Teste_Busca_Negativo()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:12:04 BRT" name="Teste_Busca_Negativo" finished-at="2020-01-28T15:12:06 BRT" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teste_Busca_Negativo -->
+        <test-method is-config="true" signature="finalizaTeste(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:12:06 BRT" name="finalizaTeste" finished-at="2020-01-28T15:12:07 BRT" duration-ms="1043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Teste_Busca_Negativo status=SUCCESS method=testConsulta.Teste_Busca_Negativo()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizaTeste -->
+      </class> <!-- br.com.rsinet.hub_tdd.test.testConsulta -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
