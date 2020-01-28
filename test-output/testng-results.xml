@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-28T15:11:39 BRT" name="Default suite" finished-at="2020-01-28T15:12:07 BRT" duration-ms="28009">
+  <suite started-at="2020-01-28T16:10:37 BRT" name="Default suite" finished-at="2020-01-28T16:11:11 BRT" duration-ms="33888">
     <groups>
     </groups>
-    <test started-at="2020-01-28T15:11:39 BRT" name="Default test" finished-at="2020-01-28T15:12:07 BRT" duration-ms="28009">
-      <class name="br.com.rsinet.hub_tdd.test.testConsulta">
-        <test-method is-config="true" signature="consulta()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:39 BRT" name="consulta" finished-at="2020-01-28T15:11:50 BRT" duration-ms="10770" status="PASS">
+    <test started-at="2020-01-28T16:10:37 BRT" name="Default test" finished-at="2020-01-28T16:11:11 BRT" duration-ms="33888">
+      <class name="br.com.rsinet.hub_tdd.test.testCadastro">
+        <test-method is-config="true" signature="inicializarChrome()[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b]" started-at="2020-01-28T16:10:37 BRT" name="inicializarChrome" finished-at="2020-01-28T16:10:48 BRT" duration-ms="10939" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- consulta -->
-        <test-method signature="Teste_Busca()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:50 BRT" name="Teste_Busca" finished-at="2020-01-28T15:11:52 BRT" duration-ms="2774" status="PASS">
+        </test-method> <!-- inicializarChrome -->
+        <test-method signature="Teste_Confirma()[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b]" started-at="2020-01-28T16:10:48 BRT" name="Teste_Confirma" finished-at="2020-01-28T16:10:54 BRT" duration-ms="5307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Teste_Busca -->
-        <test-method is-config="true" signature="finalizaTeste(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:52 BRT" name="finalizaTeste" finished-at="2020-01-28T15:11:54 BRT" duration-ms="1242" status="PASS">
+        </test-method> <!-- Teste_Confirma -->
+        <test-method is-config="true" signature="finalizaTeste(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b]" started-at="2020-01-28T16:10:54 BRT" name="finalizaTeste" finished-at="2020-01-28T16:10:55 BRT" duration-ms="1817" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Teste_Busca status=SUCCESS method=testConsulta.Teste_Busca()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b] output={null}]]]>
+                <![CDATA[[TestResult name=Teste_Confirma status=SUCCESS method=testCadastro.Teste_Confirma()[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaTeste -->
-        <test-method is-config="true" signature="consulta()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:11:54 BRT" name="consulta" finished-at="2020-01-28T15:12:04 BRT" duration-ms="10066" status="PASS">
+        <test-method is-config="true" signature="inicializarChrome()[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b]" started-at="2020-01-28T16:10:55 BRT" name="inicializarChrome" finished-at="2020-01-28T16:11:06 BRT" duration-ms="10108" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- consulta -->
-        <test-method signature="Teste_Busca_Negativo()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:12:04 BRT" name="Teste_Busca_Negativo" finished-at="2020-01-28T15:12:06 BRT" duration-ms="2089" status="PASS">
+        </test-method> <!-- inicializarChrome -->
+        <test-method signature="Teste_NaoConfirma()[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b]" started-at="2020-01-28T16:11:06 BRT" name="Teste_NaoConfirma" finished-at="2020-01-28T16:11:10 BRT" duration-ms="4580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Teste_Busca_Negativo -->
-        <test-method is-config="true" signature="finalizaTeste(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b]" started-at="2020-01-28T15:12:06 BRT" name="finalizaTeste" finished-at="2020-01-28T15:12:07 BRT" duration-ms="1043" status="PASS">
+        </test-method> <!-- Teste_NaoConfirma -->
+        <test-method is-config="true" signature="finalizaTeste(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b]" started-at="2020-01-28T16:11:10 BRT" name="finalizaTeste" finished-at="2020-01-28T16:11:11 BRT" duration-ms="1112" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Teste_Busca_Negativo status=SUCCESS method=testConsulta.Teste_Busca_Negativo()[pri:0, instance:br.com.rsinet.hub_tdd.test.testConsulta@2f177a4b] output={null}]]]>
+                <![CDATA[[TestResult name=Teste_NaoConfirma status=SUCCESS method=testCadastro.Teste_NaoConfirma()[pri:0, instance:br.com.rsinet.hub_tdd.test.testCadastro@2f177a4b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaTeste -->
-      </class> <!-- br.com.rsinet.hub_tdd.test.testConsulta -->
+      </class> <!-- br.com.rsinet.hub_tdd.test.testCadastro -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
